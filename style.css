@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,500,900");
+
+body {
+	margin: 0px;
+	overflow: hidden;
+	font-family: 'Roboto', sans-serif;
+}
+
+.btns-wrap {
+	font-family: 'Roboto', sans-serif;
+	bottom: 20px;
+	left: 20px;
+	position: absolute;
+	display: flex;
+	flex-direction: row;
+	z-index: 9998;
+}
+
+.btn {
+	user-select: none;
+	cursor: pointer;
+	box-sizing: border-box;
+	margin: 18px;
+	border-radius: 1000px;
+	width: 60px;
+	height: 60px;
+	background: #f45;
+	display: inline-block;
+	text-align: center;
+	padding: 17px 20px;
+	transition: all 0.2s;
+}
+
+.rotate {
+	background-color: #0078ff;
+	background-image: url("https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_3d_rotation_white_24px.svg");
+	background-size: 60%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.rotate_fade {
+	opacity: 0.4;
+	background-color: #323965;
+}
+
+.scale {
+	background-color: #f02853;
+	background-image: url("https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_zoom_in_white_24px.svg");
+	background-size: 60%;
+	background-repeat: no-repeat;
+	background-position: center;
+	transform: scale(1);
+}
+
+.scale_one {
+	transform: scale(1.2);
+	background-size: 70%;
+}
+
+.scale_two {
+	transform: scale(1.4);
+	background-size: 80%;
+}
+
+.switch {
+	background-color: #ffc21e;
+	width: auto;
+	font-weight: 900;
+	font-size: 20px;
+}
+
+.custom-button {
+	background-color: #ffc21e;
+	width: auto;
+	font-weight: 900;
+	font-size: 20px;
+}
+
+
+.AR-tip {
+	z-index: 9999;
+	padding: 30px 50px 60px;
+	min-width: 300px;
+	max-width: 400px;
+	display: block;
+	background: rgba(0,0,0,0.7);
+	position: absolute;
+	transform: translate(-50%, -50%);
+	top: 50%;
+	left: 50%;
+}
+
+.AR-tip h2 {
+	color: #fff;
+	font-weight: 500;
+}
+
+.AR-tip p {
+	font-weight: 300;
+	color: #fff;
+	font-size: 1.2em;
+	line-height: 1.3em;
+}
+
+.gotit {
+	font-style: italic;
+	font-size: 1.4em;
+	color: #ff0;
+	text-decoration: none;
+	border-bottom: 2px solid #ff0;
+}
+
+.links {
+	color: #f45;
+}
