@@ -5,6 +5,9 @@ body {
 	overflow: hidden;
 	font-family: 'Roboto', sans-serif;
 }
+.a-enter-vr-button {
+	display: none !important;
+}
 
 .btns-wrap {
 	font-family: 'Roboto', sans-serif;
@@ -20,14 +23,14 @@ body {
 	user-select: none;
 	cursor: pointer;
 	box-sizing: border-box;
-	margin: 18px;
+	margin: 14px;
 	border-radius: 1000px;
-	width: 60px;
-	height: 60px;
+	width: 40px;
+	height: 40px;
 	background: #f45;
 	display: inline-block;
 	text-align: center;
-	padding: 17px 20px;
+	padding: 8px 15px;
 	transition: all 0.2s;
 }
 
