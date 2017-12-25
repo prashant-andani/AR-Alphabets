@@ -4,15 +4,33 @@ body {
 	margin: 0px;
 	overflow: hidden;
 	font-family: 'Roboto', sans-serif;
+	background: #000;
 }
 .a-enter-vr-button {
 	display: none !important;
 }
-
+.word-tip {
+	z-index: 9999;
+	padding: 10px 5px 6px;
+	min-width: 0px;
+	max-width: 200px;
+	display: block;
+	background: rgba(0,0,0,0.7);
+	transform: translate(-50%, -50%);
+	position: absolute;
+	bottom: 30px;
+	left: 45%;
+}
+.title {
+	color: #ffffff;
+	font-size: 25px !important;
+	
+}
 .btns-wrap {
+	
 	font-family: 'Roboto', sans-serif;
-	bottom: 20px;
-	left: 20px;
+	bottom: 0px;
+	left: 50px;
 	position: absolute;
 	display: flex;
 	flex-direction: row;
@@ -34,6 +52,9 @@ body {
 	transition: all 0.2s;
 }
 
+.btn:hover {
+	border: #fff solid 2px;
+}
 .rotate {
 	background-color: #0078ff;
 	background-image: url("https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_3d_rotation_white_24px.svg");
@@ -41,7 +62,18 @@ body {
 	background-repeat: no-repeat;
 	background-position: center;
 }
-
+.prev {
+	background-image: url("https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_arrow_back_white_24px.svg");
+	background-size: 60%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.next {
+	background-image: url("https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_arrow_forward_white_24px.svg");
+	background-size: 60%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
 .rotate_fade {
 	opacity: 0.4;
 	background-color: #323965;
@@ -67,15 +99,15 @@ body {
 }
 
 .switch {
-	background-color: #ffc21e;
+	background-color: #0078ff;
 	width: auto;
 	font-weight: 900;
 	font-size: 20px;
 }
 
 .custom-button {
-	background-color: #ffc21e;
-	width: auto;
+	background-color: #0078ff;
+	width: 40px;
 	font-weight: 900;
 	font-size: 20px;
 }
