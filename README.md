@@ -1,5 +1,5 @@
 # AR-Alphabets
-Web Augment Reality app for learning Alphabets for children
+Web Augment Reality app for learning Alphabet words for children
 
 Screenshots
 
