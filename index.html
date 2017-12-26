@@ -38,7 +38,7 @@
 
   <div class="AR-tip">
     <p>This is an AR Education app for children
-      <a style="white-space: nowrap" class="links" target="_blank" href="https://www.google.ru/search?q=hiro+marker&newwindow=1&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiV97CF6LnXAhUHpqQKHSfEBSAQ_AUICigB&biw=1676&bih=855&dpr=2">Hiro-marker</a>
+      <a style="white-space: nowrap" class="links" target="_blank" href="https://www.google.ru/search?q=hiro+marker&newwindow=1&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiV97CF6LnXAhUHpqQKHSfEBSAQ_AUICigB&biw=1676&bih=855&dpr=2">Get Marker Here</a>
     </p>
     <a class="gotit" href="#">Got it!</a>
   </div>
@@ -482,6 +482,7 @@
         addObject(data, currentId, currentId + 1);
         hideObjects(data, currentId, currentId + 1);
         $('.title').html(data[currentId].description);
+        speak();
       });
 
       nextBtn.click(function () {
@@ -497,6 +498,7 @@
         addObject(data, currentId, currentId - 1);
         hideObjects(data, currentId, currentId - 1);
         $('.title').html(data[currentId].description);
+        speak();
       });
 
       function addObject(data, currentId, toRemoveId) {
@@ -551,6 +553,22 @@
             }
           }
         });
+      }
+      //speak feature
+      function speak() {
+        var text = data[currentId].title + ' for '+ data[currentId].description;
+        var msg = new SpeechSynthesisUtterance();
+        var voices = window.speechSynthesis.getVoices();
+        msg.voice = voices[48];
+        msg.rate = 8 / 10;
+        msg.pitch = 1;
+        msg.text = text;
+
+        msg.onend = function(e) {
+          console.log('Finished in ' + event.elapsedTime + ' seconds.');
+        };
+
+        speechSynthesis.speak(msg);
       }
     }
 
