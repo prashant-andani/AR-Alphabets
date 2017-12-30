@@ -74,6 +74,14 @@ body {
 	background-repeat: no-repeat;
 	background-position: center;
 }
+.volume-up {
+	background-color: #0078ff;
+	background-image: url("https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_volume_up_white_24px.svg");
+	background-size: 60%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
 .rotate_fade {
 	opacity: 0.4;
 	background-color: #323965;
