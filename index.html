@@ -17,9 +17,9 @@
   <link rel="manifest" href="manifest.json">
 
   <link rel="stylesheet" type="text/css" href="style.css">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script async src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://aframe.io/releases/0.7.0/aframe.min.js"></script>
-  <script src="https://prashant-andani.github.io/AR.js/aframe/build/aframe-ar.js"></script>
+  <script async src="https://prashant-andani.github.io/AR.js/aframe/build/aframe-ar.js"></script>
 
 </head>
 
@@ -41,11 +41,6 @@
       <div title="Previous Letter" class="btn prev custom-button"></div>
       <div title="Next Letter" class="btn next custom-button"></div>
       <div title="Speech Volume" id="volume" class="btn volume-up"></div>
-    </div>
-    <div class="loader">
-      <svg viewBox="0 0 32 32" width="32" height="32">
-        <circle id="spinner" cx="16" cy="16" r="14" fill="none"></circle>
-      </svg>
     </div>
   </main>
 
@@ -112,7 +107,7 @@
     <a-entity camera></a-entity>
 
   </a-scene>
-  <script src="main.js"></script>
+  <script async src="main.js"></script>
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111532782-1"></script>
   <script>
