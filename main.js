@@ -293,7 +293,6 @@ function init() {
     currentId: 0,
     prev: 0
   }
-  console.log(config);
   var
     rotateBtn = $(".rotate"),
     scaleBtn = $(".scale"),

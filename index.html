@@ -1,10 +1,12 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
+  <meta charset="UTF-8">
   <meta aframe-injected="" name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,shrink-to-fit=no,user-scalable=no,minimal-ui">
   <meta aframe-injected="" name="mobile-web-app-capable" content="yes">
   <meta description="The letters and pictures of the alphabet are learned through Augmented Reality.">
-
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@prashant_andani" />
   <meta name="twitter:title" content="Web Augmented Reality" />
@@ -15,14 +17,11 @@
     EduAR
   </title>
   <link rel="manifest" href="manifest.json">
-
   <link rel="stylesheet" type="text/css" href="style.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://aframe.io/releases/0.7.0/aframe.min.js"></script>
   <script src="https://prashant-andani.github.io/AR.js/aframe/build/aframe-ar.js"></script>
-
 </head>
-
 <body>
   <main class="main">
     <div class="AR-tip">
@@ -45,7 +44,6 @@
   </main>
 
   <a-scene embedded arjs='trackingMethod: best; sourceType: webcam; debugUIEnabled: false;' hidden>
-
     <a-assets>
       <a-asset-item id="axe_asset" src="https://raw.githubusercontent.com/prashant-andani/3d-models/master/axe/scene.gltf"></a-asset-item>
       <a-asset-item id="boat_asset" src="https://raw.githubusercontent.com/prashant-andani/3d-models/master/boat/scene.gltf"></a-asset-item>
@@ -102,14 +100,7 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111532782-1"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-    gtag('config', 'UA-111532782-1');
-
+    function gtag() { dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'UA-111532782-1');
   </script>
 </body>
-
 </html>
