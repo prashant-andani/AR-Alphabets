@@ -303,7 +303,11 @@ function init() {
     volumeBtn = $("#volume");
 
   
-
+    if (!'speechSynthesis' in window) {
+      // Synthesis support. show volume button
+      config.isVolume = false;
+      $('#volume').css('display', 'none');
+    }
   addObject(data, config.currentId, 1);
 
   gotitBtn.click(function () {
@@ -420,7 +424,6 @@ function init() {
     let marker = document.querySelector('#aframe-scene');
     entity.appendChild(animation);
     marker.appendChild(entity);
-
   }
 
   function hideObjects(data, currentId) {
@@ -442,18 +445,28 @@ function init() {
   }
   //speak feature
   function speak() {
-    if (!window.speechSynthesis) {
-      volumeBtn.addClass('remove');
-    }
     if (!config.isVolume) return;
-
     let text = data[config.currentId].title + ' for ' + data[config.currentId].description;
     let msg = new SpeechSynthesisUtterance();
-    let voices = window.speechSynthesis.getVoices();
-    msg.voice = voices[48];
+    msg.lang = 'en-US';
     msg.rate = 8 / 10;
     msg.pitch = 1;
     msg.text = text;
     speechSynthesis.speak(msg);
   }
+}
+
+//Camera feature check
+function hasGetUserMedia() {
+  return !!(navigator.getUserMedia || navigator.webkitGetUserMedia ||
+            navigator.mozGetUserMedia || navigator.msGetUserMedia);
+}
+
+if (hasGetUserMedia()) {
+  // Good to go!
+  $('#splashScreen').css('display', 'block');
+} else {
+  let template = '<p>This feature is not supported in your browser.</p>'
+  $('#noMedia').append(template);
+  $('#noMedia').css('display', 'block');
 }
