@@ -293,7 +293,6 @@ function init() {
     currentId: 0,
     prev: 0
   }
-  console.log(config);
   var
     rotateBtn = $(".rotate"),
     scaleBtn = $(".scale"),
@@ -387,7 +386,7 @@ function init() {
     }
   });
 
-  function addObject(data, currentId, toRemoveId) {
+  function addObject(data, toRemove, toRemoveId) {
     let currentData = data[config.currentId];
     if (document.querySelector('#obj_' + currentData.id)) {
       document.querySelector('#obj_' + currentData.id).setAttribute('visible', 'true');
@@ -424,14 +423,15 @@ function init() {
 
   }
 
-  function hideObjects(data, currentId, toRemoveId) {
+  function hideObjects(data, currentId) {
+    let current_id = currentId + 1;
     if (document.querySelector('#obj_' + data.id)) {
       document.querySelector('#obj_' + data.id).setAttribute('visible', 'true');
-      return;
+      //return;
     }
     data.forEach(element => {
       if (document.querySelector('#obj_' + element.id) !== null) {
-        if (element.id === toRemoveId) {
+        if (element.id === current_id) {
           document.querySelector('#obj_' + element.id).setAttribute('visible', true);
         } else {
 

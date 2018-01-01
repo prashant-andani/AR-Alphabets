@@ -11,7 +11,7 @@ body {
 }
 .word-tip {
 	z-index: 9999;
-	padding: 10px 5px 6px;
+	padding: 4px 14px 6px;
 	min-width: 0px;
 	max-width: 200px;
 	display: block;
@@ -20,6 +20,7 @@ body {
 	position: absolute;
 	bottom: 30px;
 	left: 45%;
+	border-radius: 26px;
 }
 .title {
 	color: #ffffff;
