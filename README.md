@@ -1,6 +1,8 @@
 # AR-Alphabets
 Web Augmented Reality app for learning Alphabet words for Kids using AR.js and A-frame
 
+![Demo](https://github.com/prashant-andani/AR-Alphabets-words/blob/master/ARDemo.gif?raw=true)
+
 ## Getting Started
 
 Clone the repository or download and run the index.html in local server.
@@ -36,8 +38,6 @@ Contributions are most welcome
 ### License
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
-### Demo 
-![Demo](https://github.com/prashant-andani/AR-Alphabets-words/blob/master/ARDemo.gif?raw=true)
 
 ### Screenshots
 
