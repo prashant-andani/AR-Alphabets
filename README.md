@@ -10,7 +10,7 @@ Features:
 
 Screenshots
 
-![Lion](https://github.com/prashant-andani/AR-Alphabets-words/blob/master/assets/Lion.jpeg?raw=true)
+![Lion](https://github.com/prashant-andani/AR-Alphabets-words/blob/master/assets/Lion.jpeg?raw=true){:width="100px"}
 ![Whale](https://github.com/prashant-andani/AR-Alphabets-words/blob/master/assets/Whale.jpeg?raw=true)
 
 ![letterG](https://github.com/prashant-andani/AR-Alphabets-words/blob/master/assets/pattern-letterG.png?raw=true)
