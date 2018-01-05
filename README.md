@@ -22,9 +22,9 @@ for better experience, print the marker. [Link to the Marker](https://github.com
 * **Prashant Andani** -  - [Github](https://prashant-andani.github.io) | [Twitter](https://twitter.com/prashant_andani)
 
 ### Contributors
-Be the first to contribute by
-* Raising an issue
-* Feature suggestion
+Contributions are most welcome
+* Raise an issue
+* Suggest a feature
 * Raise a PR
 
 
