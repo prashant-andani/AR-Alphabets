@@ -227,8 +227,6 @@ var data = [{
     title: 'V',
     description: 'Van',
     assetId: 'van_asset',
-    objAsset: 'vase_asset_obj',
-    mtlAsset: 'vase_asset_mtl',
     scale: '6 6 6',
     scaleOne: '7 7 7 ',
     scaleTwo: '8 8 8',
