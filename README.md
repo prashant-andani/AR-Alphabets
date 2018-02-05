@@ -9,8 +9,7 @@ Clone the repository or download and run the index.html in local server.
 for ex: You can create local server with python.  "python -m SimpleHTTPServer 8000"
 
 ### Prerequisites
-An AR marker to scan
-for better experience, print the marker. [Link to the Marker](https://github.com/prashant-andani/AR-Alphabets-words/blob/master/assets/pattern-letterG.png?raw=true)
+An AR marker to scan. For better experience. [Print marker](https://github.com/prashant-andani/AR-Alphabets-words/blob/master/assets/pattern-letterG.png?raw=true)
 
 ### 3D models displaying for each Alphabets.
 
@@ -70,11 +69,5 @@ Contributions are most welcome
 
 ### License
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-
-### Screenshots
-
-![Lion](https://github.com/prashant-andani/AR-Alphabets-words/blob/master/assets/Lion.jpeg?raw=true)
-![Whale](https://github.com/prashant-andani/AR-Alphabets-words/blob/master/assets/Whale.jpeg?raw=true)
 
 ![letterG](https://github.com/prashant-andani/AR-Alphabets-words/blob/master/assets/pattern-letterG.png?raw=true)
