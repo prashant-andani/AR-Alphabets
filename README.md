@@ -12,6 +12,39 @@ for ex: You can create local server with python.  "python -m SimpleHTTPServer 80
 An AR marker to scan
 for better experience, print the marker. [Link to the Marker](https://github.com/prashant-andani/AR-Alphabets-words/blob/master/assets/pattern-letterG.png?raw=true)
 
+### 3D models displaying for each Alphabets.
+
+| Alphabet   | 3D Model      |
+| --------   |:-------------:|
+| A          | Axe           |
+| B          | Boat :boat:         |
+| C          | Cow :cow:           |
+| D          | Deer          |
+| E          | Earth :earth_americas:        |
+| F          | Flower :sunflower:       |
+| G          | Goat :goat:         |
+| H          | Headphone :headphones:     |
+| I          | Iphone :iphone:       |
+| J          | Jaguar :tiger2:        |
+| K          | Knife         |
+| L          | Lion          |
+| M          | Monkey :monkey:       |
+| N          | Nest          |
+| O          | Octopus :octopus:      |
+| P          | Pencil :pencil2:      |
+| Q          | Q-Tip         |
+| R          | Rat :mouse:           |
+| S          | Scissor :scissors:      |
+| T          | Telescope :telescope:    |
+| U          | Umbrella :umbrella:      |
+| V          | Van :truck:          |
+| W          | Whale :whale2:|
+| X          | Xmas Tree     |
+| Y          | Yolk          |
+| Z          | Zebra         |
+
+
+
 ### Built With
 
 * [AR.js](https://medium.com/arjs) - The Web AR library
