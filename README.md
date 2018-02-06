@@ -61,6 +61,7 @@ Contributions are most welcome
 * Suggest a feature
 * Raise a PR
 
+:star: Please don't forget to star this repo if you found it useful. :+1: :clap:  
 
 ### Acknowledgments
 
