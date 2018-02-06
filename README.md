@@ -15,7 +15,7 @@ An AR marker to scan. For better experience. [Print marker](https://github.com/p
 
 | Alphabet   | 3D Model      |
 | --------   |:-------------:|
-| A          | Axe           |
+| A          | Airplane :airplane:           |
 | B          | Boat :boat:         |
 | C          | Cow :cow:           |
 | D          | Deer          |
