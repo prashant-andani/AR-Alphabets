@@ -1,13 +1,25 @@
-var data = [{
-    id: 1,
-    title: 'A',
-    description: 'Axe',
-    assetId: 'axe_asset',
-    scale: '0.1 0.1 0.1',
-    scaleOne: '0.3 0.3 0.3',
-    scaleTwo: '0.5 0.5 0.5',
-    isObj: false
-  },
+ var data = [
+   //{
+//     id: 1,
+//     title: 'A',
+//     description: 'Axe',
+//     assetId: 'axe_asset',
+//     scale: '0.1 0.1 0.1',
+//     scaleOne: '0.3 0.3 0.3',
+//     scaleTwo: '0.5 0.5 0.5',
+//     isObj: false
+//   },
+{
+  id: 1,
+  title: 'A',
+  description: 'Airplane',
+  objAsset: 'airplane_asset_obj',
+  mtlAsset: 'airplane_asset_mtl',
+  scale: '2 2 2',
+    scaleOne: '6 6 6',
+    scaleTwo: '8 8 8',
+  isObj: true
+},
   {
     id: 2,
     title: 'B',
@@ -191,13 +203,14 @@ var data = [{
   {
     id: 19,
     title: 'S',
-    description: 'Scissor',
-    assetId: 'scissor_asset',
-    scale: '0.2 0.2 0.2',
+    description: 'Snake',
+    //assetId: 'scissor_asset',
+    objAsset: 'snake_asset_obj',
+    mtlAsset: 'snake_asset_mtl',
+    scale: '0.05 0.05 0.05',
     scaleOne: '0.4 0.4 0.4',
     scaleTwo: '0.6 0.6 0.6',
-    isObj: false
-
+    isObj: true
   },
   {
     id: 20,
