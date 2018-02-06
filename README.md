@@ -9,8 +9,40 @@ Clone the repository or download and run the index.html in local server.
 for ex: You can create local server with python.  "python -m SimpleHTTPServer 8000"
 
 ### Prerequisites
-An AR marker to scan
-for better experience, print the marker. [Link to the Marker](https://github.com/prashant-andani/AR-Alphabets-words/blob/master/assets/pattern-letterG.png?raw=true)
+An AR marker to scan. For better experience. [Print marker](https://github.com/prashant-andani/AR-Alphabets-words/blob/master/assets/pattern-letterG.png?raw=true)
+
+### 3D models displaying for each Alphabets.
+
+| Alphabet   | 3D Model      |
+| --------   |:-------------:|
+| A          | Axe           |
+| B          | Boat :boat:         |
+| C          | Cow :cow:           |
+| D          | Deer          |
+| E          | Earth :earth_americas:        |
+| F          | Flower :sunflower:       |
+| G          | Goat :goat:         |
+| H          | Headphone :headphones:     |
+| I          | Iphone :iphone:       |
+| J          | Jaguar :tiger2:        |
+| K          | Knife         |
+| L          | Lion          |
+| M          | Monkey :monkey:       |
+| N          | Nest          |
+| O          | Octopus :octopus:      |
+| P          | Pencil :pencil2:      |
+| Q          | Q-Tip         |
+| R          | Rat :mouse:           |
+| S          | Scissor :scissors:      |
+| T          | Telescope :telescope:    |
+| U          | Umbrella :umbrella:      |
+| V          | Van :truck:          |
+| W          | Whale :whale2:|
+| X          | Xmas Tree     |
+| Y          | Yolk          |
+| Z          | Zebra         |
+
+
 
 ### Built With
 
@@ -29,6 +61,7 @@ Contributions are most welcome
 * Suggest a feature
 * Raise a PR
 
+:star: Please don't forget to star this repo if you found it useful. :+1: :clap:  
 
 ### Acknowledgments
 
@@ -37,11 +70,5 @@ Contributions are most welcome
 
 ### License
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-
-### Screenshots
-
-![Lion](https://github.com/prashant-andani/AR-Alphabets-words/blob/master/assets/Lion.jpeg?raw=true)
-![Whale](https://github.com/prashant-andani/AR-Alphabets-words/blob/master/assets/Whale.jpeg?raw=true)
 
 ![letterG](https://github.com/prashant-andani/AR-Alphabets-words/blob/master/assets/pattern-letterG.png?raw=true)
