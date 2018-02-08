@@ -9,7 +9,7 @@ Clone the repository or download and run the index.html in local server.
 for ex: You can create local server with python.  "python -m SimpleHTTPServer 8000"
 
 ### Prerequisites
-An AR marker to scan. For better experience. [Print marker](https://github.com/prashant-andani/AR-Alphabets-words/blob/master/assets/pattern-letterG.png?raw=true)
+An AR marker to scan. Scan the below marker with letter 'G' or [Print marker](https://github.com/prashant-andani/AR-Alphabets-words/blob/master/assets/pattern-letterG.png?raw=true) for better experience. 
 
 ### 3D models displaying for each Alphabets.
 
