@@ -2,7 +2,7 @@
 Web Augmented Reality app for learning Alphabet words for Kids using AR.js and A-frame.
 A PWA that support offline access.
 
-![Demo](https://github.com/prashant-andani/AR-Alphabets-words/blob/master/ARDemo.gif?raw=true)
+![Demo](https://github.com/prashant-andani/AR-Alphabets-words/blob/master/assets/ARDemo.gif?raw=true)
 
 ## What’s included?
 * A to Z 3D models
