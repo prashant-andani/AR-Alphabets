@@ -1,7 +1,16 @@
-# AR-Alphabets
-Web Augmented Reality app for learning Alphabet words for Kids using AR.js and A-frame
+# AR-Alphabets [![Maintainability](https://api.codeclimate.com/v1/badges/62d680a2262c379e308a/maintainability)](https://codeclimate.com/github/prashant-andani/AR-Alphabets-words/maintainability)
+Web Augmented Reality app for learning Alphabet words for Kids using AR.js and A-frame.
+A PWA that support offline access.
 
 ![Demo](https://github.com/prashant-andani/AR-Alphabets-words/blob/master/ARDemo.gif?raw=true)
+
+## What’s included?
+* A to Z 3D models
+* Navigate between different letters to show a respective 3D model
+* Rotate 3D model
+* Zoom in / out
+* Speaks the alphabet letter with word
+* works offline (PWA Support)
 
 ## Getting Started
 
@@ -64,9 +73,7 @@ Contributions are most welcome
 > :star: Please don't forget to star this repo if you found it useful. :+1: :clap:  
 
 ### Acknowledgments
-
-* Hat tip to [Jerome Etienne](https://jeromeetienne.github.io)
-* Inspiration - Steve Jobs, Elon Musk
+* [Jerome Etienne](https://jeromeetienne.github.io)
 
 ### License
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
