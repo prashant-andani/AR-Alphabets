@@ -17,13 +17,18 @@
     EduAR - Web Augmented Reality
   </title>
   <link rel="manifest" href="manifest.json" />
-  <link rel="stylesheet" type="text/css" href="style.css" />
+  <link rel="stylesheet" type="text/css" href="styles/style.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://aframe.io/releases/0.7.0/aframe.min.js"></script>
+  <script src="https://prashant-andani.github.io/AR.js/aframe/build/aframe-ar.js"></script>
+  <script async src="scripts/main.js"></script>
 </head>
 
 <body>
   <main class="main">
     <div id="splashScreen" class="AR-tip" style="display:none">
-      <p>This is an Augmented Reality app for kids to learn Alphabet words with fun. Scan the marker..
+      <p>Teach your kids the alphabet using AR 👪 on Web.
+        Scan the marker..
         <a style="white-space: nowrap" class="links" target="_blank" href="https://github.com/prashant-andani/AR-Alphabets-words/blob/master/assets/pattern-letterG.png?raw=true">Get Marker Here</a>
       </p>
       <a class="gotit" href="#">Got it!</a>
@@ -100,7 +105,6 @@
     <a-entity camera></a-entity>
 
   </a-scene>
-  <script async src="scripts/main.js"></script>
   <script async>
     if ('serviceWorker' in navigator) {
       console.log("Will the service worker register?");
@@ -129,9 +133,7 @@
   <noscript>
     Javascript is required to run this app!
   </noscript>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://aframe.io/releases/0.7.0/aframe.min.js"></script>
-  <script src="https://prashant-andani.github.io/AR.js/aframe/build/aframe-ar.js"></script>
+  
 
 </body>
 
