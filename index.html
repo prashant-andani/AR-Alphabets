@@ -16,11 +16,8 @@
   <title>
     EduAR - Web Augmented Reality
   </title>
-  <link rel="manifest" href="manifest.json">
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://aframe.io/releases/0.7.0/aframe.min.js"></script>
-  <script src="https://prashant-andani.github.io/AR.js/aframe/build/aframe-ar.js"></script>
+  <link rel="manifest" href="manifest.json" />
+  <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 
 <body>
@@ -78,7 +75,7 @@
       <a-asset-item id="scissor_asset" src="https://raw.githubusercontent.com/prashant-andani/3d-models/master/scissor/scene.gltf"></a-asset-item>
       <a-asset-item id="snake_asset_obj" src="https://raw.githubusercontent.com/prashant-andani/AR-Alphabets-words/master/assets/snake/Snake.obj"></a-asset-item>
       <a-asset-item id="snake_asset_mtl" src="https://raw.githubusercontent.com/prashant-andani/AR-Alphabets-words/master/assets/snake/Snake.mtl"></a-asset-item>
-     
+
       <a-asset-item id="telescope_asset_obj" src="https://raw.githubusercontent.com/prashant-andani/3d-models/master/telescope/model.obj"></a-asset-item>
       <a-asset-item id="telescope_asset_mtl" src="https://raw.githubusercontent.com/prashant-andani/3d-models/master/telescope/materials.mtl"></a-asset-item>
       <a-asset-item id="umbrella_asset_mtl" src="https://raw.githubusercontent.com/prashant-andani/3d-models/master/umbrella/NOVELO_OPENUMBRELLA.mtl"></a-asset-item>
@@ -94,30 +91,29 @@
       <a-asset-item id="yolk_asset_mtl" src="https://raw.githubusercontent.com/prashant-andani/3d-models/master/yolk/UncrackedEgg_239.mtl"></a-asset-item>
       <a-asset-item id="zebra_asset_obj" src="https://raw.githubusercontent.com/prashant-andani/3d-models/master/zebra_obj/Zebra.obj"></a-asset-item>
       <a-asset-item id="zebra_asset_mtl" src="https://raw.githubusercontent.com/prashant-andani/3d-models/master/zebra_obj/Zebra.mtl"></a-asset-item>
-
-
     </a-assets>
 
-    <a-marker preset="custom" patterUrl="pattern-letterG.patt" url="pattern-letterG.patt" id="aframe-scene">
+    <a-marker preset="custom" patterUrl="assets/pattern-letterG.patt" url="assets/pattern-letterG.patt" id="aframe-scene">
       <a-entity light="type: hemisphere; color: #fefddd; groundColor: #fefddd; intensity: 1.2"></a-entity>
     </a-marker>
 
     <a-entity camera></a-entity>
 
   </a-scene>
-  <script async src="main.js"></script>
+  <script async src="scripts/main.js"></script>
   <script async>
     if ('serviceWorker' in navigator) {
-    console.log("Will the service worker register?");
-    navigator.serviceWorker.register('service-worker.js')
-      .then(function(reg){
-        console.log("Yes, it did.");
-      }).catch(function(err) {
-        console.log("No it didn't. This happened: ", err)
-      });
+      console.log("Will the service worker register?");
+      navigator.serviceWorker.register('scripts/service-worker.js')
+        .then(function (reg) {
+          console.log("Yes, it did.");
+        }).catch(function (err) {
+          console.log("No it didn't. This happened: ", err)
+        });
     }
+
   </script>
-  
+
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111532782-1"></script>
   <script>
@@ -131,8 +127,12 @@
 
   </script>
   <noscript>
-     Javascript is required to run this app!
+    Javascript is required to run this app!
   </noscript>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://aframe.io/releases/0.7.0/aframe.min.js"></script>
+  <script src="https://prashant-andani.github.io/AR.js/aframe/build/aframe-ar.js"></script>
+
 </body>
 
 </html>
