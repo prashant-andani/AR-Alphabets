@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta aframe-injected="" name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,shrink-to-fit=no,user-scalable=no,minimal-ui">
@@ -18,6 +17,7 @@
   </title>
   <link rel="manifest" href="manifest.json" />
   <link rel="stylesheet" type="text/css" href="styles/style.css" />
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://aframe.io/releases/0.7.0/aframe.min.js"></script>
   <script src="https://prashant-andani.github.io/AR.js/aframe/build/aframe-ar.js"></script>
@@ -26,12 +26,24 @@
 
 <body>
   <main class="main">
+    <div id="header">
+      <div id="header-content">
+        <div>👪 AR Alphabets</div>
+      </div>
+    </div>
     <div id="splashScreen" class="AR-tip" style="display:none">
-      <p>Teach your kids the alphabet using AR 👪 on Web.
-        Scan the marker..
-        <a style="white-space: nowrap" class="links" target="_blank" href="https://github.com/prashant-andani/AR-Alphabets-words/blob/master/assets/pattern-letterG.png?raw=true">Get Marker Here</a>
+      <p>👪 Teach every kid the alphabets using AR on web.
+        <div>
+          <a href="#" class="help" style="font-size:14px;">How it works?</a>
+          <a style="white-space: nowrap; font-size: 13px;" class="links" target="_blank" href="https://github.com/prashant-andani/AR-Alphabets-words/blob/master/assets/pattern-letterG.png?raw=true">Get marker here.</a>
+        </div>
+        <div id="video_demo" class="demo" style="display:none">
+          <iframe width="100%" height="240" src="https://www.youtube.com/embed/SMsX6W6OqZ8?loop=1">
+          </iframe>
+          <p style="font-size:1em; font-weight:600">Note: Scan the marker with letter 'G'</p>
+        </div>
       </p>
-      <a class="gotit" href="#">Got it!</a>
+      <div class="gotit btn custom-button">Start</div>
     </div>
     <div class="word-tip">
       <div class="title"></div>
@@ -133,7 +145,7 @@
   <noscript>
     Javascript is required to run this app!
   </noscript>
-  
+
 
 </body>
 
