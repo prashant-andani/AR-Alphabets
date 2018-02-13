@@ -72,7 +72,7 @@ Contributions are most welcome
 
 > :star: Please don't forget to star this repo if you found it useful. :+1: :clap:  
 
-### Acknowledgments
+### Acknowledgements
 * [Jerome Etienne](https://jeromeetienne.github.io)
 
 ### License
