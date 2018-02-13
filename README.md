@@ -1,5 +1,5 @@
 # AR-Alphabets [![Maintainability](https://api.codeclimate.com/v1/badges/62d680a2262c379e308a/maintainability)](https://codeclimate.com/github/prashant-andani/AR-Alphabets-words/maintainability)
-Augmented Reality on Web for Kids to learn Alphabets.
+Augmented Reality on Web for Kids to learn Alphabets with fun.
 
 <img src="https://github.com/prashant-andani/AR-Alphabets-words/blob/master/assets/ARDemo.gif?raw=true" height="400" width="300">
 
