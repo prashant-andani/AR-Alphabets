@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta aframe-injected="" name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,shrink-to-fit=no,user-scalable=no,minimal-ui">
@@ -13,15 +14,15 @@
   />
   <meta name="twitter:image" content="https://pbs.twimg.com/media/DR38gfuV4AU93yf.jpg" />
   <title>
-    EduAR - Web Augmented Reality
+    AR Alphabets - Web Augmented Reality
   </title>
-  <link rel="manifest" href="manifest.json" />
-  <link rel="stylesheet" type="text/css" href="styles/style.css" />
+  <link rel="manifest" href="./manifest.json" />
+  <link rel="stylesheet" type="text/css" href="./styles/style.css" />
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://aframe.io/releases/0.7.0/aframe.min.js"></script>
-  <script src="https://prashant-andani.github.io/AR.js/aframe/build/aframe-ar.js"></script>
-  <script async src="scripts/main.js"></script>
+  <script src="https://prashant-andani.github.io/AR.js/aframe/build/aframe-ar.min.js"></script>
+  <script async src="./scripts/main.js"></script>
 </head>
 
 <body>
@@ -110,7 +111,7 @@
       <a-asset-item id="zebra_asset_mtl" src="https://raw.githubusercontent.com/prashant-andani/3d-models/master/zebra_obj/Zebra.mtl"></a-asset-item>
     </a-assets>
 
-    <a-marker preset="custom" patterUrl="assets/pattern-letterG.patt" url="assets/pattern-letterG.patt" id="aframe-scene">
+    <a-marker preset="AR_Alphabets" patterUrl="./pattern-letterG.patt" url="./pattern-letterG.patt" id="aframe-scene">
       <a-entity light="type: hemisphere; color: #fefddd; groundColor: #fefddd; intensity: 1.2"></a-entity>
     </a-marker>
 
