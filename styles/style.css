@@ -1,27 +1,27 @@
 .btns-wrap,
 body {
-  font-family: Roboto, sans-serif
+  font-family: Roboto, sans-serif;
 }
 
 body {
   margin: 0;
   overflow: hidden;
-  background: #000
+  background: #000;
 }
 
 .main {
-  position: relative
+  position: relative;
 }
 
 .a-enter-vr-button {
-  display: none !important
+  display: none !important;
 }
 
 .btns-wrap,
 .word-tip {
   display: block;
   position: fixed;
-  left: 50%
+  left: 50%;
 }
 
 .word-tip {
@@ -30,22 +30,22 @@ body {
   min-width: 0;
   max-width: 200px;
   font-size: 10px;
-  background: rgba(0, 0, 0, .7);
+  background: rgba(0, 0, 0, 0.7);
   transform: translate(-50%, -50%);
   bottom: 60px;
-  border-radius: 26px
+  border-radius: 26px;
 }
 
 .title {
   color: #fff;
-  font-size: 24px !important
+  font-size: 24px !important;
 }
 
 .center {
   margin: auto;
   width: 50%;
   border: 3px solid green;
-  padding: 10px
+  padding: 10px;
 }
 
 .btns-wrap {
@@ -54,7 +54,7 @@ body {
   z-index: 9998;
   max-width: 100%;
   transform: translateX(-50%);
-  width: 300px
+  width: 300px;
 }
 
 .btn {
@@ -68,12 +68,12 @@ body {
   display: inline-block;
   text-align: center;
   padding: 8px 15px;
-  transition: all .2s
+  transition: all 0.2s;
 }
 
 .rotate,
 .volume-up {
-  background-color: #0078ff
+  background-color: #0078ff;
 }
 
 .next,
@@ -83,69 +83,69 @@ body {
 .volume-up {
   background-size: 60%;
   background-repeat: no-repeat;
-  background-position: center
+  background-position: center;
 }
 
 .btn:hover {
-  border: 2px solid #fff
+  border: 2px solid #fff;
 }
 
 .rotate {
   background-image: url(https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_3d_rotation_white_24px.svg);
   margin-left: 0;
   border-top-left-radius: 18px;
-  border-bottom-left-radius: 18px
+  border-bottom-left-radius: 18px;
 }
 
 .prev {
-  background-image: url(https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_arrow_back_white_24px.svg)
+  background-image: url(https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_arrow_back_white_24px.svg);
 }
 
 .next {
-  background-image: url(https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_arrow_forward_white_24px.svg)
+  background-image: url(https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_arrow_forward_white_24px.svg);
 }
 
 .volume-up {
   background-image: url(https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_volume_up_white_24px.svg);
   border-top-right-radius: 18px;
-  border-bottom-right-radius: 18px
+  border-bottom-right-radius: 18px;
 }
 
 .rotate_fade {
-  opacity: .4;
-  background-color: #323965
+  opacity: 0.4;
+  background-color: #323965;
 }
 
 .scale {
   background-color: #f02853;
   background-image: url(https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_zoom_in_white_24px.svg);
   transform: scale(1);
-  margin-left: 0
+  margin-left: 0;
 }
 
 .custom-button,
 .switch {
   background-color: #0078ff;
   font-weight: 900;
-  font-size: 20px
+  font-size: 20px;
 }
 
 .scale_one {
   transform: scale(1.2);
-  background-size: 70%
+  background-size: 70%;
 }
 
 .scale_two {
   transform: scale(1.4);
-  background-size: 80%
+  background-size: 80%;
 }
 
 .switch {
-  width: auto
+  width: auto;
 }
 
 .custom-button {
-  width: 50px
+  width: 50px;
 }
 
 .AR-tip {
@@ -160,7 +160,7 @@ body {
   top: 40%;
   left: 50%;
   filter: alpha(opacity=80);
-  -moz-opacity: 0.80;
+  -moz-opacity: 0.8;
   -khtml-opacity: 0.8;
   opacity: 0.8;
 }
@@ -169,12 +169,12 @@ body {
   font-weight: 300;
   color: #000;
   font-size: 2em;
-  line-height: 1.3em
+  line-height: 1.3em;
 }
 
 .AR-tip h2 {
   color: #fff;
-  font-weight: 500
+  font-weight: 500;
 }
 
 .gotit {
@@ -191,7 +191,7 @@ body {
 #header {
   background-color: #ffff;
   filter: alpha(opacity=80);
-  -moz-opacity: 0.80;
+  -moz-opacity: 0.8;
   -khtml-opacity: 0.8;
   opacity: 0.8;
   /*Opacity end*/
