@@ -3,7 +3,7 @@ import { data } from "./alphabetsList";
 (function() {
   "use strict";
 
-  $(document).ready(init());
+  $(document).ready(init);
   //starting point
   function init() {
     var config = {
@@ -15,14 +15,13 @@ import { data } from "./alphabetsList";
     };
     var rotateBtn = $(".rotate"),
       scaleBtn = $(".scale"),
-      switchBtn = $(".switch"),
       gotitBtn = $(".gotit"),
       prevBtn = $(".prev"),
       nextBtn = $(".next"),
       volumeBtn = $("#volume"),
       helpBtn = $(".help");
 
-    if (!"speechSynthesis" in window) {
+    if (!("speechSynthesis" in window)) {
       // Synthesis support. show volume button
       config.isVolume = false;
       $("#volume").css("display", "none");
@@ -32,7 +31,6 @@ import { data } from "./alphabetsList";
 
     helpBtn.click(function(e) {
       e.preventDefault();
-      console.log($("#video_demo")[0]);
       $("#video_demo")[0].style.display = "block";
     });
 
@@ -53,10 +51,8 @@ import { data } from "./alphabetsList";
     });
 
     scaleBtn.click(function() {
-      let scale, scaleOne, scaleTwo;
-      scale = data[config.currentId].scale;
-      scaleOne = data[config.currentId].scaleOne;
-      scaleTwo = data[config.currentId].scaleTwo;
+      let { scale, scaleOne, scaleTwo } = data[config.currentId];
+
       if (config.scaleFlag == 0) {
         config.scaleFlag = 1;
         config.currentObject.setAttribute("scale", (scale = scaleOne));
@@ -85,7 +81,7 @@ import { data } from "./alphabetsList";
       }
 
       addObject(data, config.currentId, config.currentId + 1);
-      hideObjects(data, config.currentId, config.currentId + 1);
+      hideObjects(data, config.currentId);
       $(".title").html(data[config.currentId].description);
       speak();
     });
@@ -102,7 +98,7 @@ import { data } from "./alphabetsList";
       }
       addObject(data, config.currentId, config.currentId - 1);
       //hide all rest of the objects
-      hideObjects(data, config.currentId, config.currentId - 1);
+      hideObjects(data, config.currentId);
       $(".title").html(data[config.currentId].description);
       speak();
     });
