@@ -2,7 +2,7 @@
 <h1>AR-Alphabets</h1>
 
 <a href="https://www.emojione.com/emoji/1f992">
-<img height="80" width="80" alt="giraffe" src="https://raw.githubusercontent.com/prashant-andani/git-scene/master/assets/giraffe.png" />
+<img height="80" width="80" alt="giraffe" src="https://raw.githubusercontent.com/prashant-andani/git-scene/master/assets/aeroplane.png" />
 </a>
 
 <p>Augmented Reality on Web for Kids to learn Alphabets with fun.</p>
@@ -12,14 +12,11 @@
 
 [![PRs Welcome][prs-badge]][prs] 
 [![Code of Conduct][coc-badge]][coc]
+[![Maintainability](https://api.codeclimate.com/v1/badges/62d680a2262c379e308a/maintainability)](https://codeclimate.com/github/prashant-andani/AR-Alphabets-words/maintainability)
 
 [![Watch on GitHub][github-watch-badge]][github-watch]
 [![Star on GitHub][github-star-badge]][github-star]
 [![Tweet][twitter-badge]][twitter]
-
-# AR-Alphabets [![Maintainability](https://api.codeclimate.com/v1/badges/62d680a2262c379e308a/maintainability)](https://codeclimate.com/github/prashant-andani/AR-Alphabets-words/maintainability)
-
-Augmented Reality on Web for Kids to learn Alphabets with fun.
 
 <img src="https://github.com/prashant-andani/AR-Alphabets-words/blob/master/assets/ARDemo.gif?raw=true" height="400" width="300">
 
