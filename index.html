@@ -19,10 +19,6 @@
   <link rel="manifest" href="./manifest.json" />
   <link rel="stylesheet" type="text/css" href="./styles/style.css" />
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans" />
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://aframe.io/releases/0.7.0/aframe.min.js"></script>
-  <script src="https://prashant-andani.github.io/AR.js/aframe/build/aframe-ar.min.js"></script>
-  <script async src="./scripts/main.js"></script>
 </head>
 
 <body>
@@ -131,23 +127,25 @@
 
   </script>
 
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111532782-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-    gtag('config', 'UA-111532782-1');
-
-  </script>
   <noscript>
     Javascript is required to run this app!
   </noscript>
-
-
+  <script rel="noopener" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script rel="noopener" src="https://aframe.io/releases/0.7.0/aframe.min.js"></script>
+  <script rel="noopener" src="https://prashant-andani.github.io/AR.js/aframe/build/aframe-ar.min.js"></script>
+  <script async src="./build/app.bundle.js"></script>
+   <!-- Global site tag (gtag.js) - Google Analytics -->
+   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111532782-1"></script>
+   <script>
+     window.dataLayer = window.dataLayer || [];
+ 
+     function gtag() {
+       dataLayer.push(arguments);
+     }
+     gtag('js', new Date());
+     gtag('config', 'UA-111532782-1');
+ 
+   </script>
 </body>
 
 </html>
